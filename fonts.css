@@ -1,0 +1,15 @@
+
+
+@font-face {
+  font-family: 'CALIBRIB';
+  src: url('../fonts/CALIBRIB.woff2') format('woff2'),
+       url('../fonts/CALIBRIB.woff') format('woff'),
+       url('../fonts/CALIBRIB.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'GOTHIC';
+  src: url('../fonts/GOTHIC.woff2') format('woff2'),
+       url('../fonts/GOTHIC.woff') format('woff'),
+       url('../fonts/GOTHIC.ttf')  format('truetype');
+}

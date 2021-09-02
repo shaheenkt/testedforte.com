@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body { font-family: 'GOTHIC'; width:100%; height:100%; line-height:26px;}
+ol, ul {list-style: none;}
+*{ margin:0; padding:0;}
+a{ text-decoration:none; outline:none;}
+h6,h5,h4,h3,h2,h1{ margin:0; padding:0; font-family: 'CALIBRIB';  font-weight:normal; }
+img{ border:none;}
+.clear{ clear:both;}
+div{ display:flow-root;}
+.container{position:relative; margin:0 auto; width:1250px;}
+
+/*------Header Section-------*/
+header{ position:fixed; background:#FFF; z-index:900; width:100%; box-shadow:#CCC 0px 2px 14px; top:0; left:0;}
+#topbox{ background:#2e5984; padding:14px 0;}
+.topicon-box{ float:left; font-size:13px;  margin:0px 50px 0 0px;line-height:18px; box-sizing:border-box;}
+.topicon-box img{ float:left; margin:0px 12px 0 0;}
+.topicon-box span{ color:#cccccc; float:left; margin:3px 0 0 0;}
+#social-iconbox{ float:right; line-height:0;}
+#social-iconbox a{ float:left; margin:0 0px 0 9px;}
+#logo{ width:451px; height:110px; float:left; margin:28px 0;}
+#logo img, .team-member-img img, #page-titelbg img, .training-img img, .traingother-img img{ width:100%; height:100%;}
+
+#menu-cover{ float:right; width:700px; margin:38px 0 0 0;}
+.sidebutton{ padding:7px 21px; font-size:16px; color:#FFF; float:right; background:#77ba1c; font-family: 'CALIBRIB';}
+.sidebutton:hover{ color:#d5f3ac;}
+#menu_part{ float:right; margin:34px 0 0 0;}
+.sidebutton2{ background:#2e5984;}
+.mtoggle{cursor:pointer; margin:0px; float:right;}
+/*****LEVEL ONE*****/
+ul.dropdown{ position: relative;z-index:9999;}
+ul.dropdown li{float: left; zoom: 1;list-style:none;}
+ul.dropdown li a{ display:block; color:#2e5984; font-size:16px; margin:0 0 0 22px; font-family: 'CALIBRIB';}
+ul.dropdown li a:hover{ color: #77ba1c;}
+ul.dropdown li:hover{position: relative; color:#e3000f; }
+ul.dropdown li.hover a{ color: #e3000f;}
+/*****LEVEL TWO*****/
+ul.dropdown ul{ width: 127px; visibility: hidden; position: absolute; top: 100%; left: 0;}
+ul.dropdown ul li{background:#004672; color: #FFF; border-bottom: 1px solid #fff; float: none;list-style:none;}
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a{ border-right: none; width: 100%; display: inline-block; font-size:13px; color:#fff!important;padding:10px;height:auto;text-shadow:none!important;background:none; text-transform:uppercase;} 
+ul.dropdown ul li:hover{ background:#c70f18;}
+/*****LEVEL THREE******/
+ul.dropdown ul ul{ left: 100%; top:0; }
+ul.dropdown li:hover > ul{ visibility: visible;}
+#mobile_menu, #mobile_drop{display:none;}
+.mtoggle{cursor:pointer;float:right;}
+/*------Header Section End-----*/
+
+
+/*content part*/
+#weoffer{ color:#2e5984; font-size:33px; text-align:center; margin:14px 0;}
+.offer-box{ position:relative; border:#a3a3a3 solid thin; width:423px; padding:25px 41px; box-sizing:border-box; float:left; font-size:17px; margin:0 0 24px 130px;}
+.offer-box img{ position:absolute; left:-132px; top:13px;}
+.offer-box h2{ font-size:18px; color:#58767e; position:relative;}
+.offer-box h2:after{ content:"";  width:43px; height:3px; background:#f5b913; display:block; margin:11px 0;}
+.offer-box:nth-child(odd){ float:right;}
+.team-memberbox{ float:left; margin:15px 39px; text-align:center; width:234px;}
+.team-member-img{ width:236px; height:238px; margin:0 auto;}
+.memberdetailcover{  font-size:18px; color:#333333; line-height:24px;}
+.team-memberbox h2{  color:#2e5984;font-size:24px; margin:25px 0 10px 0; text-transform:uppercase;}
+.team-memberbox a{ display:block; font-size:17px; font-family: 'CALIBRIB'; color:#77ba1c; margin:11px 0;}
+.team-memberbox a:hover{ color:#2f5a87;}
+#traing-prgrm{ background:#77ba1c; color:#FFF; margin:40px 0 60px 0;}
+#traing-prgrm h2{ font-size:35px; text-align:center; margin:45px 0;}
+#program-cover{ float:left; width:1101px;}
+#program-cover div{ float:left; width:470px; box-sizing:border-box; font-size:24px; line-height:31px; margin:0 80px 28px 0}
+#program-cover div h3{ font-size:28px;}
+#program-cover div#graduate{ background:url(../images/graduate.png) no-repeat left center; padding:21px 0; padding-left:159px;}
+#program-cover div#medical{ background:url(../images/medical.png) no-repeat left center; padding:21px 0; padding-left:159px;}
+#program-cover div#diploma{ background:url(../images/diploma.png) no-repeat left center; padding:21px 0; padding-left:159px;}
+#program-cover div#medical2{ background:url(../images/medical2.png) no-repeat left center; padding:21px 0; padding-left:159px;}
+#program-list{ list-style:none; float:right; margin-top:24px; line-height:28px;}
+#program-list li{  font-family: 'CALIBRIB'; text-transform:uppercase; font-size:26px;}
+#placement-process{ background:url(../images/stepsline.jpg) no-repeat center 175px; padding:57px 0 0 0;}
+.step1{ background:url(../images/step1.png) no-repeat center bottom; font-family: 'CALIBRIB'; float:left; text-align:center; font-size:28px; width:169px; height:269px; color:#2e5984; margin-left:31px;}
+.step2{ background:url(../images/step2.png) no-repeat top center; font-family: 'CALIBRIB'; float:left; text-align:center; font-size:28px; width:185px; height:291px; color:#2e5984; margin:173px 0 0 -9px; padding-top:207px; box-sizing:border-box;}
+.step3{ background-image:url(../images/step3.png); margin-left:-3px;}
+.step4{ background-image:url(../images/step4.png); margin-left:-8px;}
+.step5{ background-image:url(../images/step5.png); margin-left:-4px;}
+.step6{ background-image:url(../images/step6.png); margin-left:-7px;}
+.step7{ background-image:url(../images/step7.png); margin-left:-5px;}
+#testimonials{ width:100% !important; list-style:none; margin:50px 0 0 0;}
+#testimonials li{ float:left; width:357px; margin:0 75px 0 0; text-align:center; height:auto !important;}
+.blue-box{ background:#2e5984;  padding:30px 42px 71px 43px; color:#FFF;}
+.person-box{ border:#77ba1c solid 2px; border-top: none; font-family: 'CALIBRIB'; color:#2e5984; font-size:16px;}
+.person{ width:128px; height:128px; border-radius:100%; border:#FFF solid 8px; margin:-53px auto 0 auto; }
+.person img{ border-radius:100%; width:100%; height:100%;}
+.person-box h2{ font-size:20px; color:#2e5984; text-transform:uppercase;}
+.greenbx{ background:#77ba1c;}
+.blur-brdr{ border-color:#2e5984;}
+#jobs-preparation{ width:590px; margin:37px auto; text-align:left; line-height:13px;}
+/*content part end*/
+
+/*inner page content part*/
+#pagebanner{ width:100%; height:auto; margin-bottom:70px; margin-top:225px;}
+#pagebanner img{ width:100%;}
+#page-desc{ width:913px; margin:0 auto; text-align:center; font-size:19px; line-height:28px;}
+#page-desc h2{ color:#2e5984; font-size:36px; text-transform:uppercase; margin-bottom:13px; line-height:36px;}
+.vision{ float:left; width:357px; margin:60px 75px 0 0; text-align:center; font-size:25px; line-height:33px;}
+.visionblue-box{ background:#2e5984;  padding:30px 25px 71px 25px; color:#FFF;}
+.person-box{ border:#77ba1c solid 2px; border-top: none; font-family: 'CALIBRIB'; color:#2e5984; font-size:16px;}
+.visionicon{ margin:-53px auto 0 auto; line-height:0;}
+.person-box h2{ font-size:20px; color:#2e5984; text-transform:uppercase;}
+.greenbx{ background:#77ba1c;}
+.blur-brdr{ border-color:#2e5984;}
+#leadership-cover{ text-align:center; margin-bottom:60px;}
+#leadership-cover .team-memberbox{ float:none; display:inline-block;}
+#governer-body{text-align:center; margin:20px 0 0 0;}
+#governer-body .team-member-img{ width:298px; height:256px;}
+#governer-body .team-memberbox{ width:282px; margin:15px -5px; float:none; display:inline-block;}
+#governer-body .memberdetailcover{ padding:0 20px;}
+#trainers{ text-align:center;}
+.trainers-box{ float:left; width:288px; margin:15px 23px 0 0; text-align:center; font-size:25px; line-height:33px;}
+.trainers-box .person-box{ border:#77ba1c solid 2px; border-top: none; color:#2e5984; font-size:19px; padding:0 30px; font-family: 'GOTHIC'; line-height:29px;}
+.trainers-box .blur-brdr{ border-color:#2e5984;}
+.trainers-box .visionicon{ margin:-66px auto 10px auto; line-height:0;}
+.trainers-box .person-box h2{ font-size:24px; color:#2e5984; text-transform:none; margin:6px 0;}
+.trainers-box .person-box a{ display:block; font-size:15px; color:#2e5984; font-weight:bold; margin:8px 0;}
+.trainers-box .person-box a:hover{ color:#77ba1c;}
+.partners{ float:left; width:377px; margin:22px 50px 0 0;}
+.partners img{ width:100%;}
+#programs-detail{ margin:68px 0 0 0;}
+#programs-detail h2{ font-size:24px;}
+#programs-detail h2:after{ background:#70ab32;}
+#programs-detail .offer-box{ border-color:#70ab32;}
+#admisionopen-box{ background:#024884 url(../images/admisionopenbg.jpg) no-repeat -53px  top; background-size:cover; margin:50px 0 77px 0;}
+#admission-detail{ width:545px; float:right; color:#FFF; font-weight:bold; margin:70px 0; font-size:23px; text-align:center;}
+#admission-detail span{ font-size:65px; text-align:left; display:block; }
+#admission-detail div{ float:right; margin:30px 0; font-size:38px; line-height:52px; text-align:left; clear:both;}
+#admission-detail a{ float:left; width:265px; border:#70ab32 solid 2px; text-align:center; color:#FFF;padding:14px 0; font-size:23px; margin-bottom:35px;}
+#admission-detail a:hover{ background:#70ab32;}
+#admission-detail div#duration{ background:#70ab32; float:left; width:265px; border:#70ab32 solid 2px; text-align:center; color:#FFF; font-size:23px; margin:0; line-height:54px;}
+#admission-detail div#duration a{ margin-bottom:0; padding:0; border:none; display:block;}
+#admission-detail div#duration a:hover{ background:#629a27;}
+#diploma-program{ margin:42px 0; text-align:left; clear:both;}
+#diploma-program .offer-box{ border-color:#70ab32; padding-right:20px; font-family: 'CALIBRIB'; color:#339900; font-size:24px;}
+#diploma-program .offer-box h2{ color:#024884; font-size:30px; background:url(../images/pdf.jpg) no-repeat right center; line-height:32px;}
+#diploma-program .offer-box h2:after{ background:#70ab32;}
+#diploma-program .offer-box a{ color:#024884; margin:10px 0 0 0; display:block;}
+#diploma-program .offer-box a:hover{ color:#339900;}
+#diploma-program .offer-box img{ top:26px;}
+#testimon{ width:100% !important; list-style:none;}
+#testimon li{ background:url(../images/testimonil-border1.jpg) no-repeat center top; width:340px; height:378px; text-align:center; padding:20px 20px 0 20px;  font-size:18px; margin:30px 56px 0 0; background-size:contain;}
+.user{ margin:10px auto; text-align:center;}
+#testimon li h2{ font-size:22px; text-transform:uppercase; margin:14px 0;}
+#testimon li.green-border{ background:url(../images/testimonil-border2.jpg) no-repeat center;}
+#healthcare-box{ background:#024884 url(../images/tetsexambanner.jpg) no-repeat -125px  top; background-size:cover; 
+margin:0 0 77px 0;}
+#healthcare-box #admission-detail{ float:left;}
+.logos{ float:left; margin:0 25px 20px 0;}
+.logos img{ width:100%;}
+ul#exam-prepration{ border:#024884 solid 3px; width:1000px; margin:0 auto; padding:24px 32px 63px 31px; box-sizing:border-box; position:relative;}
+ul#exam-prepration li{ background:url(../images/arow.jpg) no-repeat left 5px; padding:0 0 0 39px; font-size:19px; line-height:28px; margin-bottom:14px;}
+ul#exam-prepration div{ background:#024884; text-align:center; position:absolute; left:0; bottom:0; width:100%; color:#FFF; font-size:19px; padding:13px 0;}
+#medical-vector img{ width:100%; margin:60px 0;}
+.opertunity{ display:inline-block;margin:50px 17px 50px 0;}
+#career-banner{ background:#024884 url(../images/careerbg.jpg) no-repeat top; background-size:cover; margin:0 0 77px 0;}
+#career-banner #admission-detail{ float:left; width:642px; font-weight:normal;}
+#career-banner #admission-detail div{ font-size:60px;}
+#career-banner #admission-detail div strong{ text-transform:uppercase; font-weight:bolder;}
+#page-desc.careerbox{ width:1000px; font-size:24px; line-height:33px;}
+#careers-list{ background:#99cc33; padding:27px 0; text-align:center; margin:70px 0;}
+#careers-list div{ display:inline-block; width:172px; font-size:20px; color:#FFF; margin:0 6px; line-height:22px; position:relative;}
+#careers-list div img{ margin-bottom:8px;}
+#careers-list div:after{ clear:both; width:40px; height:3px; background:#FFF; content:""; display:block; margin:18px  auto 0 auto;}
+.healthcare-recrut{ float:left; width:305px; margin:27px 54px; font-size:15px; line-height:24px;}
+.healthcare-recrut h2{ font-size:22px; color:#006699; margin:9px 0;}
+#interview-table{ margin:20px 0 0 0; border-collapse:collapse; padding:0 50px;}
+#interview-table #table-title{ font-size:20px;line-height:52px; border-bottom:#000 solid 2px; color:#000; }
+#interview-table tr{ line-height:52px; border-bottom:#c2c2c2 solid 2px; color:#666666; }
+#interview-table strong{ color:#99cc66;}
+#viewall{ width:177px; border-radius:7px; margin:0 auto; background:#99cc33; color:#FFF; font-size:15px; display:block; 
+margin:60px auto; text-align:center; padding:11px 0; font-weight:bold;}
+#viewall:hover{ background:#7eab24;}
+#why-people{ background:#f6f6f6; padding:70px 33px; margin-bottom:80px;}
+#why-people h2{ text-align:center; font-size:45px;}
+#why-people div{ float:left; width:334px; font-size:15px; margin:60px 57px 0 0;}
+#why-people div h3{ line-height:46px; font-size:22px; margin-bottom:1px;}
+#why-people div img{ float:left; margin:0 13px 0 0;}
+#clients{ width:1100px !important; margin:24px auto 0 auto; box-sizing:border-box;}
+#clients li{ margin:0 25px;}
+.nxt{ position:absolute; right:30px; bottom:40px; background:url(../images/nxt.jpg) no-repeat; width:19px; height:25px;}
+.prv{ position:absolute; left:30px; bottom:40px; background:url(../images/prv.jpg) no-repeat; width:19px; height:25px;}
+.accreditation-detail{ margin:0 0 43px 0; padding:0 50px; font-size:18px; line-height:25px;}
+.accreditation-detail img{ float:left; margin:0 50px 0 0;}
+.membership img{ float:right; margin:0 0 0 50px;}
+#motivation{ width:auto; margin:50px auto; display:table;}
+#our-accrediation{ border:#336699 solid 2px; text-align:center; padding:38px 55px; font-size:20px;}
+#our-accrediation h2{ font-size:33px; margin:0 0 20px 0; color:#3a5d80;}
+#bsoft{ float:left; margin:0 63px 0 0;}
+.bsoft-logos{ float:left; margin:50px 25px 50px 0;}
+#camford{ display:table; margin:0 auto;}
+.c-logos{ float:left; margin:0 34px 20px 0;}
+.aplicationfrm{ width:950px; margin:50px auto;}
+.aplicationfrm h2{ font-size:30px; margin-bottom:26px; clear:both;}
+.aplicationfrm div{ float:left; margin:0 15px  0 0; width:294px; height:104px;}
+.aplicationfrm input, select{ width:100%; padding:10px 12px; box-sizing:border-box; outline:none; border:#d0d0d0 solid thin;}
+.aplicationfrm textarea{ width:100%; padding:10px 12px; box-sizing:border-box; outline:none; border:#d0d0d0 solid thin; 
+overflow:auto; resize:none; height:100px;}
+.aplicationfrm label{ margin-bottom:3px; display:block;}
+.aplicationfrm .txtarea-cover{ width:450px; margin:0 15px 20px 0; height:auto;}
+.aplicationfrm .sbmt-btn{ background:#6da83a; width:300px; padding:11px 0; cursor:pointer; color:#FFF; font-size:20px; font-family: 'CALIBRIB';}
+.aplicationfrm span{ display:block; color:#F00; font-size:14px;}
+#location-map{ height:380px;}
+#location-map iframe{ width:100%; height:100%;}
+.contact-frm{ margin-bottom:33px; clear:both; width:1120px; margin:50px auto 0 auto;}
+.contact-frm .captha{ width:143px; float:right; margin-top:0;}
+.contact-frm #frmsubmit{margin-top:0; background:#6eaa30; color:#FFF; padding:9px 0; cursor:pointer; font-size:14px; border:none;}
+.contact-frm input{ width:100%; border:none;font-family: 'GOTHIC'; padding:9px 16px; box-sizing:border-box; outline:none;font-size:13px; background:#FFFFFF; border:#d4d4d4 solid thin; color:#666;}
+.contact-frm textarea{ border:none;padding:11px 16px; box-sizing:border-box; outline:none; color:#666; height:71px; 
+margin:0px 15px 15px 0; overflow:hidden; resize:none; font-size:14px; font-family: 'GOTHIC'; width:542px; border:#d4d4d4 solid thin; }
+.contactfrm-cover{ width:358px; float:left; margin:0 15px 0 0; height:64px; text-align:left;}
+.contact-frm span{ color:#F00; font-size:12px; display:block;}
+.contact-frm #frmsubmit:hover{ background:#3d6910;}
+.contact-frm input::-webkit-input-placeholder, .contact-frm textarea::-webkit-input-placeholder  { /* Chrome/Opera/Safari */color: #666666;}
+.contact-frm input::-moz-placeholder, .contact-frm textarea::-moz-input-placeholder { /* Firefox 19+ */color: #666666;}
+.contact-frm input::-ms-input-placeholder, .contact-frm textarea::-ms-input-placeholder  { /* IE 10+ */color: #666666;}
+.contact-frm input::-moz-placeholder, .contact-frm textarea::-moz-placeholder  { /* Firefox 18- */color: #666666;}
+#contact-cover{text-align:center; padding:26px 15px 0 15px; text-align:center; background:#0f7154; float:left; width:358px; font-family:Poppins-Regular;}
+.contact-detailmain{ padding:0 19px 19px 19px; color:#FFF; line-height:21px; border-bottom: #359075  solid thin; margin-bottom:18px; font-size:14px;}
+.contact-detailmain span{ display:block; color:#9effe2; font-size:16px; margin:5px 0;}
+.address{ float:left;  margin:40px 62px;}
+.address h2, .address2 h2{ text-transform:uppercase; font-size:19px; margin-bottom:10px;}
+.address2{ float:left;  margin:40px 62px; width:307px;}
+#kangaro-location{ float:left; width:819px; height:250px; margin:35px 0 0 0;}
+#kangaro-location iframe{ width:100%; height:100%;}
+
+#page-titelbg{width:100%; height:auto; margin:0 0 30px 0; clear:both;}
+.pdfdownlaod{ float:right; background: url(../images/pdfbtnbg.jpg) repeat-x; border-radius:30px;padding:7px 64px 8px 22px; color:#FFF; font-size:14px; margin:0 0 10px 0; box-sizing:border-box; position:relative; clear:both;}
+.pdfdownlaod-icon{ position:absolute; right:10px; top:-10px; width:43px; height:45px; background:url(../images/pdficon2.png) no-repeat;}
+.pdfdownlaod:hover{ color:#d09834;}
+.training-box{ float:left; width:380px; border:#cecece solid thin; margin:17px 51px 14px 0; text-align:center;}
+.last-training{ margin-right:0;}
+.training-box h3{ background:#e9e9e9; font-size:20px; padding:14px 12px 8px 12px; color:#191919; text-transform:uppercase;font-weight:normal; clear:both;}
+.training-img{ float:left; margin:0 15px 0 0; width:364px; height:187px;}
+.training-cover{ padding:20px 31px; font-size:16px; line-height:23px;}
+
+#smallgallery-cover{ border:#cecece solid thin; padding:18px; margin:14px 0 0 0; clear:both; float:left;}
+#smallgallery-cover h2{ font-size:22px; text-transform:uppercase; color:#000; margin-bottom:14px;}
+#video-cover{ margin-top:37px; clear:both;}
+#video-cover h2{ font-size:25px; color:#000; text-transform:uppercase;}
+.last-video{ margin-right:0;}
+.traingother-img{ width:279px; height:196px; float:left; background:#CCC; margin:0px 28px 15px 0;}
+.last-training{ margin-right:0;}
+.training-video{ width:398px; float:left; height:259px;  margin:13px 28px 0 0;}
+.training-video iframe{ width:100%; height:100%;}
+.last-video{ margin-right:0;}
+/*inner page content part end*/
+
+/*footer section*/
+footer{ background:#2e5984; clear:both; padding:44px 0 0 0; color:#FFFFFF; font-size:14px; margin:90px 0 0 0;}
+.footer-cnt{float:left; margin:0 47px 0 0; width:277px;}
+.footer-cnt h2{ color:#FFF; font-family: 'GOTHIC'; font-size:15px; margin:0 0 25px 0; border-bottom:#a9a9a9 solid thin; text-transform:uppercase; line-height:38px;}
+.contact-detail{margin:14px 0 0 0; line-height:31px; font-size:15px; padding-left:50px;}
+.adrs{ background:url(../images/address.png) no-repeat left 6px; line-height:24px;}
+.cal{background:url(../images/call.png) no-repeat left}
+.mail{background:url(../images/mail.png) no-repeat left top;}
+.website{background:url(../images/globe.png) no-repeat left top;}
+#video{ width:100%; height:194px;}
+#video iframe{ width:100%; height:100%;}
+.footer-cnt img{ width:100%; height:auto;}
+#copyright{ padding:24px 0; background:#77ba1c; margin:49px 0 0 0;}
+#copyright span{ float:right;}
+#copyright span a{ color:#FFF;}
+#copyright span a:hover{ color:#dcffac;}
+/*footer section end*/
+
+@media (max-width:1200px){
+.container{ width:992px;} 
+ul.dropdown{ display:none;}
+#mobile_menu{display:block;text-align:right;height:39px;float:right; cursor:pointer;}
+#mobile_drop{display:block;position:relative;background:#303287;}
+#mobile_drop_fix{display:block;padding:20px 0px 33px 0px;margin:0 auto 0 auto;}
+#mobile_drop_fix ul li{list-style:none;display:block}
+.skdslider{ margin-top:214px;}
+#mobile_drop_fix ul li ul li{margin:0 0 0 35px;}
+#mobile_drop_fix ul li ul li a{border-bottom:0!important}
+#mobile_drop_fix a{display:block;color:#fff;border-bottom:solid 1px #e2e2e2;display:block;-moz-transition: all 0.5s ease;-webkit-transition: all 0.5s ease;transition: all 0.5s ease;text-decoration:none;padding:5px 0 5px 0; font-size:14px; text-transform:uppercase;}
+#mobile_drop_fix a:hover{-moz-transition: all 0.5s ease;-webkit-transition: all 0.5s ease;transition: all 0.5s ease;
+color:#ecfcc2;}
+.offer-box{ width:352px;}
+.team-memberbox{ margin:15px 7px;}
+.team-member-img{ width:232px; height:235px;}
+#program-cover{ width:806px;}
+#program-cover div, .contact-frm{ float:none; width:100%;}
+#program-cover div#graduate{ padding-top:38px; padding-bottom:38px;}
+#placement-process{ background:none;}
+.step1, .step2{ margin-left:0; width:140px;}
+#testimonials li{ width:310px; margin-right:30px;}
+.footer-cnt{ width:230px; margin:0 23px 0 0;}
+.vision{ width:318px; margin:60px 19px 0 0;}
+.trainers-box{ width:307px;}
+.partners{ margin:22px 0 0 0; width:329px;}
+#admisionopen-box{ background-position:-268px top;}
+#testimon li, #testimon li.green-border{ width:400px; background-size:cover; background-position:top; height:auto !important;}
+#menu-cover{ width:526px;}
+#logo{ width:404px; height:99px;}
+#careers-list div{ width:141px;}
+.healthcare-recrut{ margin:27px 24px; width:279px;}
+#why-people div{ width:270px; margin:60px 33px 0 0;}
+#clients{ width:780px !important;}
+.address{ margin:40px 38px;}
+.contactfrm-cover{ width:315px;}
+.contact-frm textarea{ width:478px;}
+#kangaro-location{ width:100%;}
+.training-box{ width:294px;}
+.training-img{ width:100%; height:auto;}
+.training-cover{ height:202px;}
+.traingother-img{ width:210px; height:147px;}
+.training-video{ width:312px;}
+}
+
+@media (max-width:992px){
+.container{ width:768px;}
+#menu-cover, #page-desc{ width:100%; margin:0;}
+.sidebutton, #admission-detail{ float:left;}
+#menu_part{ margin:0;}
+.offer-box, .offer-box:nth-child(2n+1){ width:637px; margin-bottom:20px; float:none; box-sizing:border-box;}
+#program-cover{ width:604px;}
+.step1, .step2{ width:183px;}
+#testimonials li{ width:360px; margin-right:30px;}
+#video{ height:250px; margin-bottom:25px;}
+.footer-cnt{ width:360px; margin:0 23px 0 0;}
+.vision, ul#exam-prepration, #page-desc.careerbox, #why-people div, .aplicationfrm, .contact-frm textarea{ width:100%;}
+.trainers-box{ width:360px;}
+.partners{ width:255px;}
+#admisionopen-box{ background-image:none;}
+#testimon li, #testimon li.green-border{ width:350px; height:auto !important; background-image:none; padding:0;}
+.logos{ width:230px;}
+#careers-list div{ width:189px; margin-bottom:15px;}
+.healthcare-recrut{ width:334px;}
+#interview-table #table-title{ font-size:16px; line-height:31px;}
+#clients{ width:100% !important;}
+.next{ right:-24px;}
+.prev{ left:-24px;}
+#motivation img{ width:100%;}
+.aplicationfrm div{ width:231px;}
+.skdslider{ margin-top:256px;}
+#mobile_menu{ margin-bottom:25px;}
+.aplicationfrm .txtarea-cover{ width:354px;}
+.contactfrm-cover{ width:369px;}
+.address2{ margin-left:0;}
+.last-training{ margin-right:28px}
+.training-box{ width:353px; margin-right:28px;}
+.training-img{ width:353px; height:182px;}
+.training-cover{ height:165px;}
+.training-video{ width:100%; height:427px;}
+}
+
+@media (max-width:768px){
+.container{ width:448px;}
+#social-iconbox{ display:none;}
+.sidebutton{ padding:7px 11px;}
+#mobile_menu{ padding:10px; margin-bottom:0; height:auto;}
+.skdslider{ margin-top:294px;}
+.offer-box, .offer-box:nth-child(2n+1){ width:315px;}
+.team-memberbox, #program-cover, .step1, .step2, .footer-cnt, .trainers-box, .partners, #admission-detail, #testimon li, #testimon li.green-border, #jobs-preparation, #career-banner #admission-detail, .aplicationfrm div, .aplicationfrm .txtarea-cover, .contactfrm-cover, .training-box{ width:100%;}
+#program-list{ float:left; margin-bottom:50px;}
+.step1, .step2{ height:250px; margin:25px 0 0 0;}
+#testimonials li{ width:448px;}
+.footer-cnt{ margin-top:50px;}
+#copyright span{ float:left;}
+footer{ padding:0;}
+#admission-detail span{ font-size:50px;}
+#admission-detail div{ font-size:31px;}
+#admission-detail div#duration, #admission-detail a{ width:220px;}
+#diploma-program .offer-box h2{ padding-right:69px;}
+.logos{ width:199px; height:83px;}
+#jobs-preparation{ line-height:30px;}
+ul#exam-prepration{ padding-bottom:104px;}
+.opertunity{ margin:50px 8px 4px 0;}
+#career-banner #admission-detail div{ font-size:47px;}
+.healthcare-recrut{ margin:25px 0; width:100%; text-align:center;}
+#why-people h2{ font-size:37px;}
+#clients li{ margin:0 20px;}
+#bsoft img, #camford img{ width:100%;}
+.bsoft-logos, .c-logos{ float:none;}
+.aplicationfrm div{ height:auto; margin-bottom:25px;}
+.address{ margin-left:0;}
+.training-cover{ height:auto;}
+.training-img, .traingother-img{ width:100%; height:100%;}
+.traingother-img{ line-height:0;}
+.training-video{ height:238px;}
+}
+
+@media (max-width:448px){
+.container, #testimonials li{ width:300px;}
+.topicon-box img{ margin:0px 3px 0 0;}
+#topbox{ padding:10px 0;}
+.skdslider, #pagebanner, #page-titelbg, #healthcare-box, #career-banner{ margin-top:136px;}
+#motivation, .contact-frm, .aplicationfrm,  #location-map{ margin-top:155px;}
+.topicon-box{ margin:0px 9px 0 0px;}
+#logo{ width:224px; height:55px; margin:18px 0;}
+.sidebutton{ margin-bottom:3px;}
+.offer-box, .offer-box:nth-child(2n+1){ width:100%; margin-left:0; text-align:center; margin-top:150px;}
+.offer-box img, #diploma-program .offer-box img{ left:68px; top:-127px;}
+.offer-box h2::after { margin:10px auto; float:none;}
+#program-cover div#graduate, #program-cover div#medical, #program-cover div#diploma, #program-cover div#medical2{ background-size:96px;padding-left:118px;}
+#admission-detail span{ font-size:35px;}
+#admission-detail div{ font-size:21px; line-height:45px;}
+#admission-detail div#duration, #admission-detail a{ font-size:19px; width:100%;}
+#diploma-program .offer-box h2{ background-position:center bottom; padding:0; padding-bottom:83px; margin-bottom:20px;}
+.logos{ width:100%; height:auto;}
+#career-banner #admission-detail div{ font-size:41px;}
+#careers-list div{ width:189px; margin-bottom:25px;}
+#why-people div h3{ line-height:28px; margin-bottom:8px;}
+.btn-none, #placement-process, #interview-table, #viewall{ display:none;}
+#onlinefrm-mobile{ position:fixed; right:0; top:35%; background: url(../images/online-frm.png) no-repeat; width:41px; height:152px; z-index:500;}
+#mobile_menu{ padding:0;}
+#menu-cover{ width:auto; margin-top:34px;}
+}
+
+
